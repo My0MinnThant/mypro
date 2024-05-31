@@ -1,6 +1,6 @@
 <?php
 
-// require "function.php";
+require "function.php";
 // require "database.php";
 
 $url = $_SERVER['REQUEST_URI'];

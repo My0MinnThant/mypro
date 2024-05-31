@@ -2,7 +2,7 @@
 
 
 require 'database.php';
-require 'function.php';
+// require 'function.php';
 
 $heading = 'note';
 
