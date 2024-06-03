@@ -27,7 +27,8 @@ $routes = [
 '/about' => 'controllers/about.php',
 '/contact' => 'controllers/contact.php',
 '/testing' => 'controllers/testing.php',
-'/notes'  => 'controllers/note.php'
+'/notes'  => 'controllers/notes.php',
+'/note' => 'controllers/note.php'
 ];
 
 if(array_key_exists($url, $routes)){

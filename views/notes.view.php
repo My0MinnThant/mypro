@@ -26,7 +26,7 @@
                     <td><?= $post['id']; ?></td>
                     <td><?= $post['name']; ?></td>
                     <td><?= $post['email']; ?></td>
-                    <td><a href="/notes/?id=1"><?= $post['body']; ?></a></td>
+                    <td><a href="/note?id=<?= $post['id']; ?>"><?= $post['body']; ?></a></td>
                 </tr>
 
             <?php endforeach; ?>
